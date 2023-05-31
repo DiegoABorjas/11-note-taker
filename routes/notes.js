@@ -44,4 +44,21 @@ notes.post('/', (req, res) => {
     }
 })
 
+// DELETE Route for a specific note
+notes.delete('/:id', (req, res) => {
+  const noteId = req.params.id;
+  readFromFile('./db/db.json')
+    .then((data) => JSON.parse(data))
+    .then((json) => {
+      // Make a new array of all notes except the one with the ID provided in the URL
+      const result = json.filter((note) => note.id !== noteId)
+
+      // Save that array to the filesystem
+      writeToFile('./db/db.json', result)
+
+      // Respond to the DELETE request
+      res.json(`Item ${noteId} has been deleted 🗑️`)
+    })
+})
+
 module.exports = notes

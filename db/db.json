@@ -1,12 +1,12 @@
 [
     {
-        "title": "New note",
-        "text": "ahfahgfhgfahfahfahgfh",
-        "id": "3cb13c2b-7ba3-4241-a216-fe1027785595"
+        "title": "SQL",
+        "text": "CREATE DATABASE is used to create a new database",
+        "id": "6b6417cf-ff70-46e6-8b60-a3f2bf9f9751"
     },
     {
-        "title": "diego note",
-        "text": "akakahkjahkahkajhkahk",
-        "id": "a3db7420-5179-4f01-bf9f-da3bf093e420"
+        "title": "New Note Title",
+        "text": "New Note Text goes here...",
+        "id": "2517bee4-87f1-4b40-9b5a-e26331f15377"
     }
 ]
