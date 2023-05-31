@@ -2,11 +2,11 @@
     {
         "title": "New note",
         "text": "ahfahgfhgfahfahfahgfh",
-        "note_id": "3cb13c2b-7ba3-4241-a216-fe1027785595"
+        "id": "3cb13c2b-7ba3-4241-a216-fe1027785595"
     },
     {
         "title": "diego note",
         "text": "akakahkjahkahkajhkahk",
-        "note_id": "a3db7420-5179-4f01-bf9f-da3bf093e420"
+        "id": "a3db7420-5179-4f01-bf9f-da3bf093e420"
     }
 ]
